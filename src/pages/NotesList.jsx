@@ -12,7 +12,7 @@ const NotesList = () => {
           <p className='text-md'>{note.description}</p>
           </div>
       )) :
-      <h2>There is no notes currently. Maybe you can add one move to home page</h2> 
+      <h2 className='text-xl text-white'>There is no notes currently. Maybe you can add one move to home page</h2> 
       }
       </div>
     </div>
