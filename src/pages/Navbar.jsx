@@ -3,6 +3,7 @@ import notes_logo from "../assets/note_logo.jpeg"
 import { Link } from 'react-router-dom'
 
 const Navbar = () => {
+  // Navbar is used for navigating from home page to note page and vice-versa
   return (
     <div className='h-20 border-b-2 border-zinc-400 p-5 flex justify-between items-center'>
       <div className="flex items-center gap-4">

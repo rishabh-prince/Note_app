@@ -8,6 +8,7 @@ const Home = () => {
     title: "",
     description: ""
   })
+  // handleSubmit function is used for updating the notes section if entries are found correct.
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!formData.title.trim() || !formData.description.trim()) {
